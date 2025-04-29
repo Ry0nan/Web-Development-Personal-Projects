@@ -1,0 +1,7 @@
+.hero-section {
+    height: 90vh;
+    background-image: url('../media/images/monster-hunter-rise-main-page-wallpaper.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
