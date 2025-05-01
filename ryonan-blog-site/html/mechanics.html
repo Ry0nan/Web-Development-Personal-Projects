@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Mechanics Page </title>
+
+    <!-- Link Bootstrap v5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+    crossorigin="anonymous">
+
+    <!-- link to css -->
+     <link href="../css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Dark Header -->
+    <div class="container-fluid bg-dark text-white">
+        <header class="d-flex flex-wrap justify-content-center py-3">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="../media/home-page-images/Monster_Hunter_Rise_logo.webp" alt="mh-rise-logo" width="90" height="50" class="d-inline-block align-text-top mx-5">
+            <span class="fs-4"> Monster Hunter Rise </span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page"> Home </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> Mechanics </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> Weapons </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> Monsters </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> Blogs </a></li>
+          </ul>
+        </header>
+    </div>
+
+   <!-- Carousel for Mechanics with Description -->
+    <div class="container">
+        <h2 class="display-5 fw-bold text-body-emphasis text-center my-5"> Mechanics </h2>
+        <p class="lead my-4 text-center">Quickly design and customize responsive mobile-first sites with Bootstrap, 
+            the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, 
+            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="container my-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="../media/mechanics-images/mh-rise-carousel-2.webp" class="d-block w-100" alt="mh-rise-carousel-2">
+                </div>
+                <div class="carousel-item">
+                <img src="../media/mechanics-images/mh-rise-carousel-3.webp" class="d-block w-100" alt="mh-rise-carousel-3">
+                </div>
+                <div class="carousel-item">
+                <img src="../media/mechanics-images/mh-rise-carousel-4.webp" class="d-block w-100" alt="mh-rise-carousel-4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section explaining the main and different mechanics of monster hunter rise -->
+
+
+    <div class="container text-center my-5">
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1"> Hunting Loop </h2>
+            <p class="lead text-justify mx-3 my-5"> At the heart of Monster Hunter Rise is the cycle of hunting formidable creatures to gather materials. 
+                These materials are then used to craft and upgrade weapons and armor, 
+                enabling you to take on even more challenging monsters.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="../media/mechanics-images/hunting-mechanic.gif" height="500" width="500"/>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1"> Wirebug Mobility </h2>
+            <p class="lead text-justify mx-3 my-5"> The Wirebug is a versatile tool that enhances movement and combat. 
+                It allows Hunters to perform aerial maneuvers, quickly traverse environments, 
+                and execute special attacks unique to each weapon type. 
+                This adds a layer of verticality and dynamism to both exploration and battles.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="../media/mechanics-images/wirebug-mechanic.gif" height="500" width="500"/>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1"> Wyvern Riding </h2>
+              <p class="lead text-justify mx-3 my-5"> Building upon the Wirebug mechanic, Wyvern Riding lets you temporarily control monsters after weakening them. 
+                You can use this to your advantage by directing these creatures to attack other monsters or obstacles, turning the tide of battle in your favor.​</p>
+            </div>
+            <div class="col-md-5">
+              <img src="../media/mechanics-images/wyvern-riding.webp" height="500" width="500"/>
+            </div>
+          </div>
+  
+          <hr class="featurette-divider">
+  
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1"> Palamutes and Palicoes </h2>
+              <p class="lead text-justify mx-3 my-5"> Hunters are accompanied by two types of companions: Palamutes and Palicoes. 
+                Palamutes are canine allies that you can ride for faster travel and they assist in combat. 
+                Palicoes are feline companions that provide support through healing, setting traps, and other helpful abilities.​</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="../media/mechanics-images/palicoes-and-palamutes.gif" height="500" width="500"/>
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1"> Rampage Mode </h2>
+              <p class="lead text-justify mx-3 my-5"> Rampage Mode introduces a tower-defense-style gameplay where you defend Kamura Village from waves of attacking monsters. 
+                You'll set up fortifications, deploy artillery, and collaborate with other Hunters to protect the village from these onslaughts.​</p>
+            </div>
+            <div class="col-md-5">
+              <img src="../media/mechanics-images/rampage-mode.webp" height="500" width="500"/>
+            </div>
+          </div>
+  
+          <hr class="featurette-divider">
+  
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1"> Switch Skills </h2>
+              <p class="lead text-justify mx-3 my-5"> Switch Skills allow you to customize your weapon's move set by swapping certain attacks. 
+                This feature provides flexibility, enabling you to tailor your combat style to better suit different monsters or personal preferences​</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="../media/mechanics-images/switch-skill.gif" height="500" width="500"/>
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1"> Multiplayer Hunts </h2>
+              <p class="lead text-justify mx-3 my-5"> Monster Hunter Rise supports cooperative multiplayer for up to four players. 
+                Teaming up with others can make hunts more manageable and adds a social element to the game. 
+                Communication and coordination are key to taking down the most formidable foes.​</p>
+            </div>
+            <div class="col-md-5">
+              <img src="../media/mechanics-images/multiplayer-hunt-2.gif" height="500" width="500"/>
+            </div>
+          </div>
+  
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"> Mechanics </a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"> Weapons </a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"> Monsters </a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"> Blogs </a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
+        </footer>
+    </div>
+
+    <!-- Link Boostrap v5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
+  </body>
+</html>
