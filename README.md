@@ -1,3 +1,7 @@
-MH Rise info dump site
-Im just doing shit just because its free
-More to come soon
+Web Development personal projects 
+
+Learning bootstrap through youtube videos
+
+Applying what I've learned in the MH Rise Blog Site
+
+Javascript projects coming soon!
